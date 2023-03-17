@@ -17,7 +17,7 @@ int main() {
     i = 0;
 
     for (i = 0; i < 4; i++) {
-        printf("Entre com a %d do aluno: ", i + 1);
+        printf("Entre com a nota %d do aluno: ", i + 1);
         scanf("%f", &NOTAS[i]);
     } 
 
